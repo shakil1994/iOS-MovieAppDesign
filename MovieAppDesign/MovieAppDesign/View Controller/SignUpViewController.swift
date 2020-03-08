@@ -51,7 +51,7 @@ class SignUpViewController: UIViewController {
     
     @IBAction func signupTapped(_ sender: Any) {
         
-        let storyBoard = UIStoryboard(name: "HomeStoryboard", bundle: Bundle.main)
+        let storyBoard = UIStoryboard(name: "Home", bundle: Bundle.main)
         if let signIn = storyBoard.instantiateViewController(identifier: "HomeVC") as? HomeViewController {
            self.navigationController?.pushViewController(signIn, animated: true)
         }

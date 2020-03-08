@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15705" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15706"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="i1Y-UF-6Q7">
+            <objects>
+                <viewController id="tao-6o-taa" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="txL-6S-yQk">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBrownColor" red="0.63529411759999999" green="0.51764705879999995" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="sBM-3a-y1T"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="ZHZ-Dj-7xO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xqv-hf-o88" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1197.1014492753625" y="771.42857142857144"/>
+        </scene>
+        <!--Upcomming-->
+        <scene sceneID="IzL-9T-PZz">
+            <objects>
+                <viewController id="unw-2Y-k96" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="zET-eV-D2u">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="rJx-aW-oZE"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Upcomming" image="movieprojector" id="xgy-qp-F3B"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="TBL-Fi-zWq" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2015.9420289855075" y="770.75892857142856"/>
+        </scene>
+        <!--Home View Controller-->
+        <scene sceneID="JGB-ZY-yaU">
+            <objects>
+                <tabBarController storyboardIdentifier="HomeVC" automaticallyAdjustsScrollViewInsets="NO" id="onl-NN-tPk" customClass="HomeViewController" customModule="MovieAppDesign" customModuleProvider="target" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="j1q-q1-SkU">
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="NnA-qa-Pwy" kind="relationship" relationship="viewControllers" id="4Nd-8J-yHB"/>
+                        <segue destination="unw-2Y-k96" kind="relationship" relationship="viewControllers" id="YTf-yX-gEE"/>
+                        <segue destination="A1y-Cn-JHd" kind="relationship" relationship="viewControllers" id="qf1-Na-eE9"/>
+                        <segue destination="SR5-GY-CMY" kind="relationship" relationship="viewControllers" id="R1Q-m2-di6"/>
+                        <segue destination="y4l-cg-jJT" kind="relationship" relationship="viewControllers" id="Mof-J0-N3q"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zOd-aq-cPF" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="675.36231884057975" y="41.517857142857139"/>
+        </scene>
+        <!--Theatres-->
+        <scene sceneID="Orh-8L-NAx">
+            <objects>
+                <viewController id="A1y-Cn-JHd" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="HeV-cT-UEL">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="DRg-aV-uOi"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Theatres" image="mobilehome" id="rCx-i2-hPV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="19h-Mb-4cH" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2760.8695652173915" y="770.75892857142856"/>
+        </scene>
+        <!--News-->
+        <scene sceneID="Wsc-h2-veE">
+            <objects>
+                <viewController id="SR5-GY-CMY" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="kse-lL-HSH">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemGrayColor" red="0.5568627451" green="0.5568627451" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="F9F-WH-eWc"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="News" image="horn" id="RSt-Zo-Oxn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VNa-DU-UHd" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3505.7971014492755" y="770.75892857142856"/>
+        </scene>
+        <!--Settings-->
+        <scene sceneID="Rmi-1P-TtF">
+            <objects>
+                <viewController id="y4l-cg-jJT" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="QZm-JP-RSY">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemYellowColor" red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <viewLayoutGuide key="safeArea" id="p2s-28-283"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="Settings" image="settings" id="ADl-2x-KAg"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="8be-yl-Fec" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4202.898550724638" y="770.75892857142856"/>
+        </scene>
+        <!--In Theatres-->
+        <scene sceneID="zLl-pp-UGy">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="NnA-qa-Pwy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="In Theatres" image="filmreel" id="5IK-Iz-5sM"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="sL7-SD-tUf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="tao-6o-taa" kind="relationship" relationship="rootViewController" id="efB-q2-3nI"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CKa-hL-uuZ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="286.95652173913044" y="771.42857142857144"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="filmreel" width="25" height="25"/>
+        <image name="horn" width="25" height="25"/>
+        <image name="mobilehome" width="25" height="25"/>
+        <image name="movieprojector" width="25" height="25"/>
+        <image name="settings" width="25" height="25"/>
+    </resources>
+</document>
