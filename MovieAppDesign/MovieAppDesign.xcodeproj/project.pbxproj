@@ -17,6 +17,7 @@
 		5EC027B6240B6B8D00295D94 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5EC027B4240B6B8D00295D94 /* LaunchScreen.storyboard */; };
 		5EC027BE240B706800295D94 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC027BD240B706800295D94 /* SignUpViewController.swift */; };
 		5EC027C0240B707800295D94 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC027BF240B707800295D94 /* SignInViewController.swift */; };
+		5EEF06E224150F5F00252A8B /* HallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF06E124150F5F00252A8B /* HallTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +33,7 @@
 		5EC027B7240B6B8D00295D94 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5EC027BD240B706800295D94 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5EC027BF240B707800295D94 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
+		5EEF06E124150F5F00252A8B /* HallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				5EC027BD240B706800295D94 /* SignUpViewController.swift */,
 				5EC027BF240B707800295D94 /* SignInViewController.swift */,
 				5E4CC5072414A47700E06A36 /* HomeViewController.swift */,
+				5EEF06E124150F5F00252A8B /* HallTableViewCell.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -173,6 +176,7 @@
 				5EC027C0240B707800295D94 /* SignInViewController.swift in Sources */,
 				5EC027AC240B6B8C00295D94 /* SceneDelegate.swift in Sources */,
 				5E4CC5082414A47700E06A36 /* HomeViewController.swift in Sources */,
+				5EEF06E224150F5F00252A8B /* HallTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
