@@ -18,6 +18,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         // Override point for customization after application launch.
         UITabBar.appearance().barTintColor = .white
         UITabBar.appearance().tintColor = .red
+//        UITabBar.appearance().shadowImage = UIImage()
+        UITabBar.appearance().backgroundImage = UIImage()
+        
+        // Remove Border color
+        UITabBar.appearance().layer.borderWidth = 0.0
+        UITabBar.appearance().clipsToBounds = true
         
         return true
     }

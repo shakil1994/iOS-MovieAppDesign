@@ -18,6 +18,7 @@ class ViewController: UIViewController {
         
         let buttonRedius = self.btnGetStarted.bounds.width / 50
         self.btnGetStarted.layer.cornerRadius = buttonRedius
+        
     }
 
 
