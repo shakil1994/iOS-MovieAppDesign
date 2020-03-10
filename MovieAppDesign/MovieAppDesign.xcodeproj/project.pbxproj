@@ -19,6 +19,11 @@
 		5EC027C0240B707800295D94 /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EC027BF240B707800295D94 /* SignInViewController.swift */; };
 		5EEF06E224150F5F00252A8B /* HallTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5EEF06E124150F5F00252A8B /* HallTableViewCell.swift */; };
 		7B68432F24160B27006EA7F7 /* HallTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B68432E24160B27006EA7F7 /* HallTabBarViewController.swift */; };
+		7BBD8D3424175E3600298639 /* News.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7BBD8D3324175E3600298639 /* News.storyboard */; };
+		7BBD8D3624175E6600298639 /* NewsDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BBD8D3524175E6600298639 /* NewsDetailsViewController.swift */; };
+		7BCD6A9F24174E07008E2B04 /* NewsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD6A9E24174E07008E2B04 /* NewsTableViewCell.swift */; };
+		7BCD6AA22417506A008E2B04 /* ButtonWithImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD6AA12417506A008E2B04 /* ButtonWithImage.swift */; };
+		7BCD6AA42417517A008E2B04 /* NewsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7BCD6AA32417517A008E2B04 /* NewsTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +41,11 @@
 		5EC027BF240B707800295D94 /* SignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInViewController.swift; sourceTree = "<group>"; };
 		5EEF06E124150F5F00252A8B /* HallTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallTableViewCell.swift; sourceTree = "<group>"; };
 		7B68432E24160B27006EA7F7 /* HallTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HallTabBarViewController.swift; sourceTree = "<group>"; };
+		7BBD8D3324175E3600298639 /* News.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = News.storyboard; sourceTree = "<group>"; };
+		7BBD8D3524175E6600298639 /* NewsDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsDetailsViewController.swift; sourceTree = "<group>"; };
+		7BCD6A9E24174E07008E2B04 /* NewsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewCell.swift; sourceTree = "<group>"; };
+		7BCD6AA12417506A008E2B04 /* ButtonWithImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonWithImage.swift; sourceTree = "<group>"; };
+		7BCD6AA32417517A008E2B04 /* NewsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +64,7 @@
 			children = (
 				5EC027AF240B6B8C00295D94 /* Main.storyboard */,
 				5E4CC5052414A3C500E06A36 /* Home.storyboard */,
+				7BBD8D3324175E3600298639 /* News.storyboard */,
 			);
 			path = StoryBoard;
 			sourceTree = "<group>";
@@ -67,6 +78,9 @@
 				5E4CC5072414A47700E06A36 /* HallViewController.swift */,
 				5EEF06E124150F5F00252A8B /* HallTableViewCell.swift */,
 				7B68432E24160B27006EA7F7 /* HallTabBarViewController.swift */,
+				7BCD6A9E24174E07008E2B04 /* NewsTableViewCell.swift */,
+				7BCD6AA32417517A008E2B04 /* NewsTableViewController.swift */,
+				7BBD8D3524175E6600298639 /* NewsDetailsViewController.swift */,
 			);
 			path = "View Controller";
 			sourceTree = "<group>";
@@ -90,6 +104,7 @@
 		5EC027A8240B6B8C00295D94 /* MovieAppDesign */ = {
 			isa = PBXGroup;
 			children = (
+				7BCD6AA024175056008E2B04 /* Button Design */,
 				5E3EA705240BB3AB000D1E89 /* StoryBoard */,
 				5EC027A9240B6B8C00295D94 /* AppDelegate.swift */,
 				5EC027AB240B6B8C00295D94 /* SceneDelegate.swift */,
@@ -99,6 +114,14 @@
 				5EC027B7240B6B8D00295D94 /* Info.plist */,
 			);
 			path = MovieAppDesign;
+			sourceTree = "<group>";
+		};
+		7BCD6AA024175056008E2B04 /* Button Design */ = {
+			isa = PBXGroup;
+			children = (
+				7BCD6AA12417506A008E2B04 /* ButtonWithImage.swift */,
+			);
+			path = "Button Design";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -161,6 +184,7 @@
 			files = (
 				5EC027B6240B6B8D00295D94 /* LaunchScreen.storyboard in Resources */,
 				5EC027B3240B6B8D00295D94 /* Assets.xcassets in Resources */,
+				7BBD8D3424175E3600298639 /* News.storyboard in Resources */,
 				5EC027B1240B6B8C00295D94 /* Main.storyboard in Resources */,
 				5E4CC5062414A3C500E06A36 /* Home.storyboard in Resources */,
 			);
@@ -173,14 +197,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7BBD8D3624175E6600298639 /* NewsDetailsViewController.swift in Sources */,
 				5EC027AE240B6B8C00295D94 /* ViewController.swift in Sources */,
 				5EC027AA240B6B8C00295D94 /* AppDelegate.swift in Sources */,
 				5EC027BE240B706800295D94 /* SignUpViewController.swift in Sources */,
+				7BCD6AA22417506A008E2B04 /* ButtonWithImage.swift in Sources */,
+				7BCD6AA42417517A008E2B04 /* NewsTableViewController.swift in Sources */,
 				5EC027C0240B707800295D94 /* SignInViewController.swift in Sources */,
 				5EC027AC240B6B8C00295D94 /* SceneDelegate.swift in Sources */,
 				7B68432F24160B27006EA7F7 /* HallTabBarViewController.swift in Sources */,
 				5E4CC5082414A47700E06A36 /* HallViewController.swift in Sources */,
 				5EEF06E224150F5F00252A8B /* HallTableViewCell.swift in Sources */,
+				7BCD6A9F24174E07008E2B04 /* NewsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
