@@ -10,7 +10,6 @@ import UIKit
 
 class NewsTableViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
-    
     @IBOutlet weak var newsTableView: UITableView!
     
     let newsImages: [UIImage] = [
@@ -42,10 +41,7 @@ class NewsTableViewController: UIViewController, UITableViewDataSource, UITableV
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let newsCell = tableView.dequeueReusableCell(withIdentifier: "NewsCell", for: indexPath) as! NewsTableViewCell
-                
-        //newsCell.layer.cornerRadius = newsCell.frame.height / 20
                         
-        
         newsCell.newsImageView.image = newsImages[indexPath.item]
         newsCell.newsHeadLineLabel.text = newsHeadLine[indexPath.item]
         newsCell.newsDetailsLabel.text = newsDetails[indexPath.item]
@@ -56,11 +52,10 @@ class NewsTableViewController: UIViewController, UITableViewDataSource, UITableV
         newsCell.newsBackground.layer.cornerRadius = newsCell.newsBackground.frame.height / 20
         newsCell.newsImageView.layer.cornerRadius = newsCell.newsImageView.frame.height / 20
         
+        //Button clicked
         newsCell.buttonReadmore.tag = indexPath.row
         newsCell.buttonReadmore.addTarget(self, action: #selector(NewsTableViewController.newsDetailsVC(_:)), for: .touchUpInside)
         
-        
-                        
         return newsCell
     }
     
