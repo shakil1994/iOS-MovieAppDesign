@@ -52,7 +52,7 @@ class SignUpViewController: UIViewController {
     @IBAction func signupTapped(_ sender: Any) {
         
         let storyBoard = UIStoryboard(name: "Home", bundle: Bundle.main)
-        if let signIn = storyBoard.instantiateViewController(identifier: "HomeVC") as? HomeViewController {
+        if let signIn = storyBoard.instantiateViewController(identifier: "HomeVC") as? HallTabBarViewController {
            self.navigationController?.pushViewController(signIn, animated: true)
         }
     }

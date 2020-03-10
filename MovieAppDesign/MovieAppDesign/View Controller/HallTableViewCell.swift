@@ -14,7 +14,12 @@ class HallTableViewCell: UITableViewCell {
     @IBOutlet weak var hallImageView: UIImageView!
     @IBOutlet weak var nameLabel: UILabel!
     
-
+    @IBOutlet weak var addressLabel: UILabel!
+    
+    @IBOutlet weak var mobileLabel: UILabel!
+    
+    @IBOutlet weak var emailLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

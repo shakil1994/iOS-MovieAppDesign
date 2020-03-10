@@ -11,12 +11,14 @@ import UIKit
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
+    var window: UIWindow?
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
-//        UITabBar.appearance().barTintColor = .white
-//        UITabBar.appearance().tintColor = .red
+        UITabBar.appearance().barTintColor = .white
+        UITabBar.appearance().tintColor = .red
+        
         return true
     }
 
